@@ -1,0 +1,173 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+.left{
+    display:inline-block;
+    width:20%;
+    height:100vh;
+    background-color:#e9e6e6;
+}
+.right{
+    display: inline-block;
+    width:78%;
+    height:100vh;
+    background-color: white;
+    margin-left:0;
+    
+}
+.left-line{
+    position:relative;
+    height:10px;
+    background-color: blue;
+    top:17vh;
+}
+.right-line{
+    position:relative;
+    top:17vh;
+    height:10px;
+    background-color: blue;
+}
+img{
+    width:250px;
+    height:250px;
+    object-fit: contain;
+    border-radius: 50%;
+    position:absolute;
+    left:15px;
+}
+.name{
+    position:absolute;
+    top:13vh;
+    background-color: white;
+    height:10%;
+}
+h1{
+    font-size: 60px;
+}
+.tag{
+    font-size: 25px;
+    position:absolute;
+    top:21vh;
+    padding-left:3px;
+}
+.phone{
+    position:absolute;
+    padding:25px;
+    top:33%;
+
+}
+.contact-head{
+    font-size:25px;
+    color: blue;
+}
+.contact-icons{
+    display:inline-block;
+}
+.email{
+    position:absolute;
+    padding:25px;
+    top:43%;
+}
+.link{
+    position:absolute;
+    padding:25px;
+    top:50%;
+}
+.end{
+    position:absolute;
+    width:15%;
+    top:58%;
+    left:50px;
+
+}
+.hobbies{
+    position:absolute;
+    padding:25px;
+    top:60%;
+}
+.hobbies-ul{
+    padding-left:30px;
+}
+.education{
+    position:absolute;
+    padding:25px;
+    top:27%;
+    display:flex;
+}
+.box1{
+    padding:25px;
+    border:2px solid blue;
+    border-radius:10px;
+    margin:10px;
+    font-size:larger;
+}
+.box2{
+    padding:25px;
+    border:2px solid blue;
+    border-radius:10px;
+    margin:10px;
+    font-size:larger;
+}
+.box3{
+    padding:25px;
+    border:2px solid blue;
+    border-radius:10px;
+    margin:10px;
+    font-size:larger;
+}
+.right-end{
+    width:70%;
+    top:60%;
+    position:absolute;
+    right:5%;
+}
+.edu-head{
+    position: absolute;
+    top:27%;
+    right:72%
+}
+.skills{
+    position: absolute;
+    top:61%;
+    right:69%;
+    padding:10px;
+}
+.skills-head{
+    padding:10px;
+}
+.skills-ul{
+    padding-left:30px;
+}
+.top{
+    text-decoration: none;
+    color:black;
+    padding:10px 40px;
+    font-size: 22px;
+}
+.top:hover{
+    text-decoration-color:blue;
+    text-decoration-line: underline;
+}
+header{
+    position:absolute;
+    right:5%;
+    top:14vh;
+}
+body{
+    font-family: Crimson Text;
+}
+.skills1{
+    position: absolute;
+    top:61%;
+    right:47%;
+    padding:10px;
+}
+
+.skills2{
+    position: absolute;
+    top:61%;
+    right:11%;
+    padding:10px;
+}
